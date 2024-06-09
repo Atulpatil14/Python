@@ -1,4 +1,4 @@
-#............Http Protocol............#
+#............Http Protocol...........#
 
 import requests                    #It's Library
 
