@@ -1,3 +1,5 @@
+#............Http Protocol............#
+
 import requests                    #It's Library
 
 url = "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.blackbox.com/en-us&ved=2ahUKEwi8k960x8uGAxUaT2wGHf3VB84QFnoECAgQAQ&usg=AOvVaw0oQ4C-lKBn7wLWFnTfe6kp"                                 #Url give or Give ip
