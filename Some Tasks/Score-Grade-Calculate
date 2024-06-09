@@ -1,0 +1,28 @@
+#write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using a following table.
+
+#score grade
+
+'''>= 0.9   A
+   >= 0.8   B
+    >= 0.7  C
+    >= 0.6  D
+    <  0.6  F '''
+
+while True: 
+    s=str(input("enter score:"))
+    if "0.0" < s or s > "1.0":
+        print("bad score")
+    else:
+        if s >= "0.9":
+            print("A")
+        elif  s >= "0.8":
+            print("B")
+        elif  s >= "0.7":
+            print("C")
+        elif  s >= "0.6":
+            print("D")
+        else:
+            print("F")
+            
+    
+
