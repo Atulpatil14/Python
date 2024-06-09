@@ -1,0 +1,31 @@
+#.........Exception Handling...............#
+
+def funName():          #Define function first
+    f=open("ile.txt","r")
+    print(f.read())
+    f.close()
+
+try:                #This part tested first
+    funName()       #Function call
+
+except IOError as b:   #It will give us input/output related errors.
+    print("IOError:",b)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+except:     #If try part is not okay then this(except) part will run
+
+    pass    #It will don't handle exception then it will pass te error and continue the remaining part of code.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+except Exception as a:  #It will give us our error as well as system generated error. Like as alias.
+    print("Myerror:",a)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+finally:           #This part will run the code no matter what
+    print("Hello")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
