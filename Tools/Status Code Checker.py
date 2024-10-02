@@ -55,7 +55,7 @@ def scan_domain(domain, ports, timeout):
                 print_status(f"Port {port} is closed on {domain} Status Code is {https_status}",Fore.RED)
     else:
         print_status(f"Domain: {domain} - DNS resolution failed", Fore.YELLOW)
-
+        
 def main():
     banner()
     print("Port Scanning is started")
